@@ -1,0 +1,64 @@
+body {
+  background-color: #ff5a5f; /* Red-pink background color for the entire page */
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #ffffff; /* White background color for the profile card */
+}
+
+.profile-card img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.profile-card h2 {
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: opacity 0.3s;
+}
+
+.like-button {
+  background-color: #28a745; /* Green background color for the like button */
+}
+
+.dislike-button {
+  background-color: #dc3545; /* Red background color for the dislike button */
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}
